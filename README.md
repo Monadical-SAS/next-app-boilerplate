@@ -8,6 +8,10 @@ Then, run the development server: `yarn dev`
 
 Open [http://localhost:3000](http://localhost:3000)
 
+## CSS
+
+It uses [https://tailwindcss.com/](tailwindcss)
+
 ## ESLint
 
 Nextjs integrated ESLint: `yarn lint`
