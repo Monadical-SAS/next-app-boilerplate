@@ -27,3 +27,8 @@ Run tests with: `yarn test`
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new) from the creators of Next.js.
 
 More info: [Next.js deployment documentation](https://nextjs.org/docs/deployment).
+
+## Docker
+
+Build and run with:
+`docker build -t client . && docker run --name CLIENT_CONTAINER -p 0.0.0.0:3000:3000 client`
