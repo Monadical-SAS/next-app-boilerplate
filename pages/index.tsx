@@ -18,7 +18,7 @@ const Home: NextPage = () => {
           </a>
         </h1>
 
-        <p className="py-2">Monadical's boilerplate</p>
+        <p className="py-2">Monadical&apos;s boilerplate</p>
         <div className="py-4 animate-rotateAnimation">
             <Image src="/monadical.png" alt="Monadical Logo" width={100} height={100} />
         </div>
