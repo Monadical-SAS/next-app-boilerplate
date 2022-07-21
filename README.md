@@ -8,6 +8,9 @@ Then, run the development server: `yarn dev`
 
 Open [http://localhost:3000](http://localhost:3000)
 
+## ESLint
+
+Nextjs integrated ESLint: `yarn lint`
 
 ## Testing
 
