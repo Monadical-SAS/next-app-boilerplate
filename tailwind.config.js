@@ -6,7 +6,17 @@ module.exports = {
     // Add any other folder here
   ],
   theme: {
-    extend: {},
+    extend: {
+      keyframes: {
+        rotateAnimation: {
+          from: {transform: 'rotateY(0deg)'},
+	        to: {transform: 'rotateY(360deg)'},
+        }
+      },
+      animation: {
+        rotateAnimation: 'rotateAnimation 4s ease-in-out infinite',
+      },
+    },
   },
   plugins: [],
 }

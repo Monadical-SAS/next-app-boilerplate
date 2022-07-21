@@ -18,6 +18,11 @@ const Home: NextPage = () => {
           </a>
         </h1>
 
+        <p className="py-2">Monadical's boilerplate</p>
+        <div className="py-4 animate-rotateAnimation">
+            <Image src="/monadical.png" alt="Monadical Logo" width={100} height={100} />
+        </div>
+
         <p className="mt-3 text-2xl">
           Get started by editing{' '}
           <code className="rounded-md bg-gray-100 p-3 font-mono text-lg">
